@@ -1,4 +1,4 @@
-numbers=(input("Enter 5 numbers:"))
+numbers=input("Enter 5 numbers:")
 list=numbers.split()
 sum = 0
 for i in list:
