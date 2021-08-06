@@ -1,5 +1,7 @@
 numbers=input("Enter 5 numbers:")
 list=numbers.split()
+reverse_list=list[::-1]
+print("reversed list= [", *reverse_list, "]")
 sliced_list= list[0:3]
 print("sliced list=[", *sliced_list, "]")
 list[0]="0"
